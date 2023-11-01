@@ -20,6 +20,7 @@ function justNumbers(string: string[], name: string) {
   }
   return 0;
 }
+
 function convertStringToTime(durationString: string): any {
   const parts = durationString.split(' : ');
   let mins = justNumbers(parts, 'mins') * 60;
